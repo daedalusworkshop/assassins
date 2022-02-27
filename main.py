@@ -15,3 +15,10 @@ c = Person("Kasra", "@kasrakaley", None
 print(a.name + "'s target is " + a.target)
 print(b.name + "'s target is " + b.target)
 print(c.name + "'s target is " + c.target)
+
+def assassin(name, twitter, target):
+  print(name + "(" + twitter + ")")
+
+assassin("Jacob", "@countj0ecool", "Kasra(@kasrakaley)")
+assassin("Zeus", "@kingofdaheavens","Jacob(@countj0ecool)")
+assassin("Kasra", "@kasrakaley", "Zeus(@kingofdaheavens)")
